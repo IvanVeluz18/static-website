@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  height: 18px;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 0.7px solid #787276;
+  color: white;
+  padding: 20px;
+}
+
+.nav-logo {
+  font-size: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-name1 {
+  margin-left: 25px;
+  font: 800 30px "Helvetica Neue";
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.75px;
+  -webkit-text-stroke-color: black;
+}
+
+.nav-name2 {
+  font: 800 30px "Helvetica Neue";
+  color: black;
+  /*
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1.3px;
+  -webkit-text-stroke-color: black;
+  */
+}
+
+.nav-header ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-header ul li a{
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+}
+
+.nav-header ul li a:hover{
+  color: gray;
+}
+
+.nav-header.active{
+  background-color: black;
+}
+
+.home-top-container{
+  background-color: #41424c;
+  height: 120vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-text {
+  padding: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.footer-container {
+  position: end;
+  bottom: 0px;
+  width: auto;
+  padding: 10px;
+  background: white;
+  border-top: 0.7px solid #787276;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  margin-top: 13px;
+  text-decoration: none;
+}
+
+.footer-container ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer-container ul li a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: gray;
+}
+
+.footer-name1 {
+  margin-left: 25px;
+  font: 800 30px "Helvetica Neue";
+  font-size: 25px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.75px;
+  -webkit-text-stroke-color: black;
+}
+
+.footer-name2 {
+  font: 800 30px "Helvetica Neue";
+  font-size: 25px;
+  color: black;
+  /*
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke: 1.3px;
+  -webkit-text-stroke-color: black;
+  */
+}
+
+.footer-container ul li a:hover {
+  text-decoration: underline;
+}
